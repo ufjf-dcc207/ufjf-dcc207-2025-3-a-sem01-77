@@ -1,8 +1,10 @@
-.app{
-  max-width: 1000px;
-  margin: auto;
-  padding: 2rem;
-  font-size: 1.5rem;
+.app {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
 }

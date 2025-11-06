@@ -1,4 +1,4 @@
-import "./opcao2.css";
+import "./card.css";
 
 interface opcao2Props {
   icone?: string;
@@ -14,12 +14,12 @@ export default function Opcao2({
    preco = "R$ 5,00",
   }: opcao2Props) {
   return (
-   <div className="opcao2">
+    <div className="card-produto">
       <div>{icone}</div>
       <div>{nome}</div>
       <div>{ingredientes.join(", ")}</div>
       <div>{preco}</div>
-      </div>
+    </div>
 
   );
 }
