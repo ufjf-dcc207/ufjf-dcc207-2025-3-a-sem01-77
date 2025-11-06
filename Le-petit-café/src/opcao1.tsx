@@ -8,7 +8,7 @@ interface opcao1Props {
 }
 
 export default function Opcao1({
-   icone="🍞",
+   icone="🥐",
    nome = "Aurore Parisienne",
    ingredientes = ["Farinha de trigo", "Água", "Fermento", "Sal"],
    preco = "R$ 5,00",
